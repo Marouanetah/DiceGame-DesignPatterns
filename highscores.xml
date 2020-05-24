@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_80" class="java.beans.XMLDecoder">
+ <object class="persist.HighScoreXML" id="HighScoreXML0"/>
+<void class="Core.HighScore" id="Field0" method="getField">
+ <string>entries</string>
+ <void id="Vector0" method="get">
+  <object idref="HighScoreXML0"/>
+  <void method="add">
+   <object class="Core.Entry">
+    <void property="name">
+     <string>Player</string>
+    </void>
+    <void property="score">
+     <int>30</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Core.Entry">
+    <void property="name">
+     <string>Marouane</string>
+    </void>
+    <void property="score">
+     <int>30</int>
+    </void>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="Vector0"/>
+</java>
